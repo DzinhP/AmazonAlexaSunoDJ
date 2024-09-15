@@ -1,0 +1,80 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "multipleValues": {
+                "enabled": false
+              },
+              "name": "MusicGenre",
+              "type": "AMAZON.MusicCreativeWorkType"
+            },
+            {
+              "name": "MusicType",
+              "type": "AMAZON.Musician"
+            }
+          ],
+          "name": "MusicIntent",
+          "samples": [
+            "suno create a {MusicType} song that is in the {MusicGenre} genre",
+            "play me a {MusicGenre} song",
+            "play music that ounds like {MusicGenre}",
+            "play {MusicType} that sounds like {MusicGenre}",
+            "play some {MusicGenre} that sounds like {MusicType}",
+            "can you play some {MusicGenre}",
+            "i wanna listen to {MusicGenre}",
+            "play {MusicGenre} like {MusicType}",
+            "dj i wanna listen to some {MusicGenre}",
+            "suno dj play music like {MusicType}",
+            "play {MusicGenre} with suno ai",
+            "make and play {MusicGenre} music",
+            "play {MusicGenre} music",
+            "make music in {MusicGenre} like {MusicType}",
+            "make and play {MusicGenre} songs like {MusicType}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "MinuteIntent",
+          "samples": [
+            "a minute has passed",
+            "it has been a while",
+            "Its been a minute"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "suno d. j."
+    }
+  }
+}
